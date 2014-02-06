@@ -1,0 +1,20 @@
+Creating a repo
+===============
+git init
+git remote add origin ssh://git@bitbucket.org/lborda/devops.git
+echo "# This is my README" > README.md
+git add README.md
+git commit -m "First commit. Adding a README." .
+git push -u origin master
+echo "# This is my README" > README.rst 
+git add *
+git commit -m "Second commit. Adding a README." .
+git push -u origin master
+
+git ubuntu kernel
+==========
+git describe --contains 334795e
+git clone git://kernel.ubuntu.com/ubuntu/ubuntu-lucid.git
+git log --pretty=oneline > txt.txt
+grep word txt.txt
+
