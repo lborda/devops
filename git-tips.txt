@@ -49,3 +49,4 @@ Updating source code and sending to bitbucket
 git add -A
 git commit -m 'commit #2'
 git push -u origin master
+git log --oneline
